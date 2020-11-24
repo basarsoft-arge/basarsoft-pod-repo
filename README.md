@@ -19,11 +19,13 @@ target '##AppName##' do
 end
 ```
 
-##### Users' netrc file
+##### User's netrc file
+> Must be created manually at user's home directory with exact name ".netrc"  
 
 Path: *~/.netrc*
 ```config
-hostname artifactory.basarsoft.com.tr
+machine artifactory.basarsoft.com.tr
 login ##Artifactory mavenUser##
 password ##Artifactory mavenPassword##
+   
 ```
