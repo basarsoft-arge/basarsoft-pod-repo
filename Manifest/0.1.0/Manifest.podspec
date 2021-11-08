@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/Manifest/0.1.0/ManifestAPI.framework.zip"}
 
-  s.source_files  = "ManifestAPI.framework/**/*.{hpp,h,m,mm}"
+  s.source_files  = "ManifestAPI.framework/**/*.{hpp,h,m,mm,swift}"
 
   s.public_header_files = "ManifestAPI.framework/**/*.{h,hpp}"
 
