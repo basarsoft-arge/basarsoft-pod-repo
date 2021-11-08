@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/Helper/0.1.0/CppHelper.framework.zip"}
+  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/Helper/0.1.0/Helper.framework.zip"}
 
   s.source_files  = "Helper.framework/**/*.{hpp,h,m,mm,swift}"
 
