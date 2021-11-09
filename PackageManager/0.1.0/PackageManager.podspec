@@ -30,6 +30,6 @@ Pod::Spec.new do |s|
 
   s.cocoapods_version = ">= 1.10.1"
 
-  s.dependency = "CppHelper"
+  s.dependency "CppHelper"
 
 end

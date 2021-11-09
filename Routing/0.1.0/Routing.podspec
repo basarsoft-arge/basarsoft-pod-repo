@@ -30,13 +30,13 @@ Pod::Spec.new do |s|
 
   s.cocoapods_version = ">= 1.10.1"
 
-  s.dependency = "CppHelper"
-  s.dependency = "SGRE"
-  s.dependency = "PackageManager"
-  s.dependency = "httprequest"
-  s.dependency = "cglib"
-  s.dependency = "tess2"
-  s.dependency = "picojson"
-  s.dependency = "Helper"
+  s.dependency "CppHelper"
+  s.dependency "SGRE"
+  s.dependency "PackageManager"
+  s.dependency "httprequest"
+  s.dependency "cglib"
+  s.dependency "tess2"
+  s.dependency "picojson"
+  s.dependency "Helper"
 
 end

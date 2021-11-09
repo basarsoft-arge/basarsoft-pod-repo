@@ -30,12 +30,9 @@ Pod::Spec.new do |s|
 
   s.cocoapods_version = ">= 1.10.1"
 
-  s.dependency = "tess2"
-
-  s.dependency = "cglib"
-
-  s.dependency = "picojson"
-
-  s.dependency = "httprequest"
+  s.dependency "tess2"
+  s.dependency "cglib"
+  s.dependency "picojson"
+  s.dependency "httprequest"
 
 end
