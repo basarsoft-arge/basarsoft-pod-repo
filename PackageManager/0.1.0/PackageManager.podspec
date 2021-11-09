@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/PackageManager/0.1.0/PackageManager.framework.zip"}
 
-  s.source_files  = "PackageManager.framework/**/*.{hpp,h,m,mm}"
+  s.source_files  = "PackageManager.framework/**/*.{hpp,h,m,mm,swift}"
 
   s.public_header_files = "PackageManager.framework/**/*.{h,hpp}"
 
