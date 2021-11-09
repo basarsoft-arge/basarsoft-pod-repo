@@ -20,13 +20,13 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/Routing/0.1.0/RoutingAPI.framework.zip"}
 
-  s.source_files  = "Routing.framework/**/*.{hpp,h,m,mm,swift}"
+  s.source_files  = "RoutingAPI.framework/**/*.{hpp,h,m,mm,swift}"
 
-  s.public_header_files = "Routing.framework/**/*.{h,hpp}"
+  s.public_header_files = "RoutingAPI.framework/**/*.{h,hpp}"
 
-  s.preserve_paths = "Routing.framework"
+  s.preserve_paths = "RoutingAPI.framework"
 
-  s.vendored_frameworks = "Routing.framework"
+  s.vendored_frameworks = "RoutingAPI.framework"
 
   s.cocoapods_version = ">= 1.10.1"
 
