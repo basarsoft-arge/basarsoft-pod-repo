@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   s.dependency "cglib"
   s.dependency "tess2"
   s.dependency "picojson"
-  s.dependency "Helper"
+  s.dependency "INObjects"
 
 end
