@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "ManifestAPI.framework"
 
   s.dependency "CppHelper"
+  s.dependency "INObjects"
 
   s.cocoapods_version = ">= 1.10.1"
 
