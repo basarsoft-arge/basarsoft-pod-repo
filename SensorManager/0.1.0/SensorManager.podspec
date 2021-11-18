@@ -33,5 +33,6 @@ Pod::Spec.new do |s|
   s.dependency "CppHelper"
   s.dependency "Alglib"
   s.dependency "Smoothing"
+  s.dependency "eventpp"
 
 end
