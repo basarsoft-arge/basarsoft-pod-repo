@@ -28,8 +28,10 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "SensorManagerAPI.framework"
 
-  s.cocoapods_version = ">= 1.10.1"
+  s.frameworks = "CoreBluetooth", "CoreLocation", "CoreMotion"
 
+  s.cocoapods_version = ">= 1.10.1"
+  
   s.dependency "CppHelper"
   s.dependency "Alglib"
   s.dependency "Smoothing"
