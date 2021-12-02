@@ -1,4 +1,3 @@
-
 Pod::Spec.new do |s|
 
   s.module_name  = "SensorManager"
@@ -34,6 +33,7 @@ Pod::Spec.new do |s|
   
   s.dependency "CppHelper"
   s.dependency "Alglib"
+  s.dependency "INData"
   s.dependency "Smoothing"
   s.dependency "eventpp"
 
