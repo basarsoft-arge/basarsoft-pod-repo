@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Basarsoft" => "https://www.basarsoft.com.tr" }
 
-  s.platform     = :ios, "13.0"
+  s.platform     = :ios, "11.4"
 
   s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/Positioner/0.1.0/PositionerAPI.framework.zip"}
 
