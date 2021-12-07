@@ -2,6 +2,7 @@
 
 iNavi's Public Podspec Repository
 
+
 # Usage
 
 Placeholders marked with `##Variable##` must be replaced with their originals.
