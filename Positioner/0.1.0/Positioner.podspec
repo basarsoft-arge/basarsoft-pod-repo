@@ -9,15 +9,15 @@ Pod::Spec.new do |s|
                    Positioner
                    DESC
 
-  s.homepage     = "https://www.basarsoft.com.tr/"
+  s.homepage     = "https://inavi.us"
 
   s.license      = "Commercial"
 
-  s.author       = { "Basarsoft" => "https://www.basarsoft.com.tr" }
+  s.author       = { "iNavi Team" => "https://inavi.us" }
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/Positioner/0.1.0/PositionerAPI.framework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/ui/native/generic-release-local/pods/inavi/Positioner/0.1.0/PositionerAPI.framework.zip"}
 
   s.source_files  = "PositionerAPI.framework/**/*.{hpp,h,m,mm,swift}"
 

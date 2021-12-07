@@ -10,15 +10,15 @@ Pod::Spec.new do |s|
                    tess2 API
                    DESC
 
-  s.homepage     = "https://www.basarsoft.com.tr/"
+  s.homepage     = "https://inavi.us"
 
   s.license      = "Commercial"
 
-  s.author       = { "Basarsoft" => "https://www.basarsoft.com.tr" }
+  s.author       = { "iNavi Team" => "https://inavi.us" }
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/tess2/0.1.0/tess2.framework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/ui/native/generic-release-local/pods/inavi/tess2/0.1.0/tess2.framework.zip"}
 
   s.source_files  = "tess2.framework/**/*.{hpp,h,m,mm}"
 
