@@ -16,15 +16,15 @@ Pod::Spec.new do |s|
                    * Use your own custom map data sources
                    DESC
 
-  s.homepage     = "https://www.basarsoft.com.tr/"
+  s.homepage     = "https://inavi.us"
 
   s.license      = "Commercial"
 
-  s.author       = { "Basarsoft" => "https://www.basarsoft.com.tr" }
+  s.author       = { "iNavi Team" => "https://inavi.us" }
 
   s.platform     = :ios, "9.0"
 
-  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-dev-local/pods/yolbil/YolbilMobileSDK/2.1.0-rc2/YolbilMobileSDK.xcframework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/ui/native/generic-dev-local/pods/yolbil/YolbilMobileSDK/2.1.0-rc2/YolbilMobileSDK.xcframework.zip"}
 
   s.source_files  = "YolbilMobileSDK.xcframework/**/*.{h,m,mm}"
 

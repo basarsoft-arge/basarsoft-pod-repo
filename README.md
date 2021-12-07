@@ -1,6 +1,6 @@
-# BasarPodRepo
+# iNaviPodRepo
 
-Basarsoft's Public Podspec Repository
+iNavi's Public Podspec Repository
 
 # Usage
 
@@ -8,7 +8,7 @@ Placeholders marked with `##Variable##` must be replaced with their originals.
 
 #### 1. Add Pod Repo
 ```bash
-pod repo add specs https://git.basarsoft.com.tr/public-repo/basar-pod-repo.git
+pod repo add specs https://gitlab.com/inavi_us/inavi-pod-repo.git
 pod install
 ```
 
@@ -19,7 +19,7 @@ Path: *${ProjectFiles}/Podfile*
 
 ```ruby
 ...
-source 'https://git.basarsoft.com.tr/public-repo/basar-pod-repo.git'
+source 'https://gitlab.com/inavi_us/inavi-pod-repo.git'
 target '##AppName##' do
 	use_frameworks!
 	pod '##PodName##', '~> ##Version##'
@@ -28,12 +28,11 @@ end
 ```
 
 #### 3. User's netrc file
-> Must be created manually at user's home directory with exact name ".netrc"  
+> Must be created manually at user's home directory with exact name ".netrc"
 
 Path: *~/.netrc*
 ```config
-machine artifactory.basarsoft.com.tr
+machine repo.inavi.us
 login ##Artifactory mavenUser##
 password ##Artifactory mavenPassword##
-   
 ```

@@ -10,15 +10,15 @@ Pod::Spec.new do |s|
                    CppHelper API
                    DESC
 
-  s.homepage     = "https://www.basarsoft.com.tr/"
+  s.homepage     = "https://inavi.us"
 
   s.license      = "Commercial"
 
-  s.author       = { "Basarsoft" => "https://www.basarsoft.com.tr" }
+  s.author       = { "iNavi Team" => "https://inavi.us" }
 
   s.platform     = :ios, "11.0"
 
-  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/CppHelper/0.1.0/CppHelper.framework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/ui/native/generic-release-local/pods/inavi/CppHelper/0.1.0/CppHelper.framework.zip"}
 
   s.source_files  = "CppHelper.framework/**/*.{hpp,h,m,mm}"
 
