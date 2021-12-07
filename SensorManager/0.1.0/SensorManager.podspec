@@ -1,3 +1,4 @@
+
 Pod::Spec.new do |s|
 
   s.module_name  = "SensorManager"
