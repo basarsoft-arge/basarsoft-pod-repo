@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "9.0"
 
-  s.source       = { :http => "https://repo.inavi.us/ui/native/generic-dev-local/pods/yolbil/YolbilMobileSDK/2.1.0-rc2/YolbilMobileSDK.xcframework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-dev-local/pods/yolbil/YolbilMobileSDK/2.1.0-rc2/YolbilMobileSDK.xcframework.zip"}
 
   s.source_files  = "YolbilMobileSDK.xcframework/**/*.{h,m,mm}"
 

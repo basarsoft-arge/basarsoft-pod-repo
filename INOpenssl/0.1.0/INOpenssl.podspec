@@ -10,15 +10,15 @@ Pod::Spec.new do |s|
                    openssl
                    DESC
 
-  s.homepage     = "https://www.basarsoft.com.tr/"
+  s.homepage     = "https://inavi.us"
 
   s.license      = "Commercial"
 
-  s.author       = { "Basarsoft" => "https://www.basarsoft.com.tr" }
+  s.author       = { "iNavi Team" => "https://inavi.us" }
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-dev-local/pods/inavi/openssl/0.1.0/openssl.zip"}
+  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-dev-local/pods/inavi/openssl/0.1.0/openssl.zip"}
 
   s.source_files = "include/**/*.{h,hpp}"
   s.public_header_files = "include/**/*.{h,hpp}"

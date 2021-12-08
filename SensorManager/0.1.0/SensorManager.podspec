@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://repo.inavi.us/ui/native/generic-release-local/pods/inavi/SensorManager/0.1.0/SensorManagerAPI.framework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/SensorManager/0.1.0/SensorManagerAPI.framework.zip"}
 
   s.source_files  = "SensorManagerAPI.framework/**/*.{hpp,h,m,mm,swift}"
 

@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://repo.inavi.us/ui/native/generic-release-local/pods/inavi/cglib/0.1.0/cglib.framework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/cglib/0.1.0/cglib.framework.zip"}
 
   s.source_files  = "cglib.framework/**/*.{hpp,h,m,mm}"
 

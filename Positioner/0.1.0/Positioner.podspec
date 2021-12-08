@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://repo.inavi.us/ui/native/generic-release-local/pods/inavi/Positioner/0.1.0/PositionerAPI.framework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/Positioner/0.1.0/PositionerAPI.framework.zip"}
 
   s.source_files  = "PositionerAPI.framework/**/*.{hpp,h,m,mm,swift}"
 
