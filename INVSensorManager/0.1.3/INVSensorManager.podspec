@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.module_name  = "INVSensorManager"
   s.name         = "INVSensorManager"
-  s.version      = "0.1.1"
+  s.version      = "0.1.3"
   s.summary      = "INVSensorManager"
 
   s.description  = <<-DESC
@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
 
   s.dependency "INVCppHelper", '~> 0.1'
   s.dependency "INVAlglib", '~> 0.1'
+  s.dependency "INVData", '~> 0.1'
   s.dependency "INVSmoothing", '~> 0.1'
   s.dependency "INVeventpp", '~> 0.1'
 
