@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVSensorManager/0.1.0/INVSensorManager.framework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVSensorManager/0.1.3/INVSensorManager.framework.zip"}
 
   s.source_files  = "INVSensorManager.framework/**/*.{hpp,h,m,mm,swift}"
 

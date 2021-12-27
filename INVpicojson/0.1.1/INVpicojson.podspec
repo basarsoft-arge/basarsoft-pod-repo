@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVpicojson/0.1.0/INVpicojson.framework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVpicojson/0.1.1/INVpicojson.framework.zip"}
 
   s.source_files  = "INVpicojson.framework/**/*.{hpp,h,m,mm}"
 
