@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.dependency "INVLicenseManager", "~> 0.1"
   s.dependency "INVCppHelper", "~> 0.1"
-  s.dependency "INVMMKV", "~> 0.1"
+  s.dependency "INMMKV", "~> 0.1"
   s.dependency "INVeventpp", "~> 0.1"
 
 end
