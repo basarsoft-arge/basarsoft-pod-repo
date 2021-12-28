@@ -1,4 +1,3 @@
-
 Pod::Spec.new do |s|
 
   s.module_name  = "INVSGRE"
@@ -18,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVSGRE/0.1.1/INVSGRE.framework.zip"}
+  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVSGRE/0.1.1/INVsgre.framework.zip"}
 
   s.source_files  = "INVSGRE.framework/**/*.{hpp,h,m,mm}"
 
