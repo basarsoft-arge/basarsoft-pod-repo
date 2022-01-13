@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.dependency "INVCppHelper", "~> 0.1"
   s.dependency "INVObjects", "~> 0.1"
-  s.dependency "INCpr", "~> 0.1"
-  s.dependency "INMMKV", "~> 0.1"
+  s.dependency "INVCpr", "~> 0.1"
+  s.dependency "INVMMKV", "~> 0.1"
 
   s.cocoapods_version = ">= 1.10.1"
 
