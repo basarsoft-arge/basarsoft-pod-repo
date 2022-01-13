@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "iNavi Team" => "https://inavi.us" }
 
-  s.platform     = :ios, "11.4"
+  s.platform     = :ios, "13"
 
   s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVRouting/0.1.3/INVRouting.framework.zip"}
 
