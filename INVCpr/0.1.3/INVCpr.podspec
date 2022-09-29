@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
     s.source_files = "/**/*.{h,hpp}"
     s.public_header_files = "/**/*.{h,hpp}"
-    s.vendored_frameworks = "cpr.xcframework",
+    s.vendored_frameworks = "cpr.xcframework"
 
     s.dependency "INVCurl"
 
