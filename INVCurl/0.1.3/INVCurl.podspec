@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.public_header_files = "/**/*.{h,hpp}"
     s.vendored_frameworks = "curl.xcframework",
 
-    s.dependency "INVOpenssl", '~> 0.1'
+    s.dependency "INVOpenssl"
 
     s.cocoapods_version = ">= 1.10.1"
 
