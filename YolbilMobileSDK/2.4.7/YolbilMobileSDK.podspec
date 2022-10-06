@@ -1,3 +1,4 @@
+
 Pod::Spec.new do |s|
 
   s.module_name  = "YolbilMobileSDK"
@@ -23,22 +24,22 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "13.0"
 
-  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/yolbil/YolbilMobileSDK/2.4.6/YolbilMobileSDK.framework.zip"}
+  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/yolbil/YolbilMobileSDK/2.4.7/YolbilMobileSDK.xcframework.zip"}
 
-  s.source_files  = "YolbilMobileSDK.framework/**/*.{h,m,mm}"
+  s.source_files  = "YolbilMobileSDK.xcframework/**/*.{h,m,mm}"
 
-  s.public_header_files = "YolbilMobileSDK.framework/**/*.{h}"
+  s.public_header_files = "YolbilMobileSDK.xcframework/**/*.{h}"
 
-  s.preserve_paths = "YolbilMobileSDK.framework"
+  s.preserve_paths = "YolbilMobileSDK.xcframework"
 
   s.frameworks = "OpenGLES", "GLKit", "UIKit", "CoreGraphics", "CoreText", "CoreLocation", "CFNetwork", "Foundation", "AVFoundation"
 
   s.weak_frameworks = nil
 
-  s.dependency "INVPackageManager", "~> 2.0"
-  s.dependency "INVSensorManager", "~> 2.0"
+  s.dependency "INVPackageManager", "~> 3.0"
+  s.dependency "INVSensorManager", "~> 3.0"
 
-  s.vendored_frameworks = "YolbilMobileSDK.framework"
+  s.vendored_frameworks = "YolbilMobileSDK.xcframework"
 
   s.libraries = "z", "c++"
 
