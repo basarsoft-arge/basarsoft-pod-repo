@@ -20,9 +20,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVSensorManager/3.0.0/INVSensorManager.xcframework.zip"}
 
-  s.source_files = "**/*.{h,hpp}"
-  s.public_header_files = "**/*.{h,hpp}"
-  s.vendored_frameworks = "INVSensorManager.xcframework"
+  s.source_files = "INVSensorManager.framework/**/*.{h,hpp,m,swift}"
+  s.public_header_files = "INVSensorManager.framework/**/*.{h,hpp}"
 
   s.frameworks = "CoreBluetooth", "CoreLocation", "CoreMotion"
 

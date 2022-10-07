@@ -20,9 +20,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVLicenseManager/3.0.0/INVLicenseManager.xcframework.zip"}
 
-  s.source_files = "**/*.{h,hpp}"
-  s.public_header_files = "**/*.{h,hpp}"
-  s.vendored_frameworks = "INVLicenseManager.xcframework"
+  s.source_files = "INVLicenseManager.framework/**/*.{h,hpp,m,swift}"
+  s.public_header_files = "INVLicenseManager.framework/**/*.{h,hpp}"
 
   s.dependency "INVCppHelper", "~> 3.0"
   s.dependency "INVObjects", "~> 3.0"
