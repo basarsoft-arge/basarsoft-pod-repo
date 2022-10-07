@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
 
     s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVCpr/0.1.4/cpr.xcframework.zip"}
 
-    s.source_files = "/**/*.{h,hpp}"
-    s.public_header_files = "/**/*.{h,hpp}"
-    s.vendored_frameworks = "cpr.xcframework"
+    s.source_files = "cpr.xcframework/**/*.{h,hpp,m,swift}"
+    s.public_header_files = "cpr.xcframework/**/*.{h,hpp}"
+    s.preserve_paths = "cpr.xcframework"
 
     s.dependency "INVCurl"
 
