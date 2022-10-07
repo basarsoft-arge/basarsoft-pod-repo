@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVAlglib/0.1.3/INVAlglib.xcframework.zip"}
 
-  s.source_files = "/**/*.{h,hpp}"
-  s.public_header_files = "/**/*.{h,hpp}"
-  s.vendored_frameworks = "INVAlglib.xcframework"
+  s.source_files = "INVAlglib.xcframework/**/*.{h,hpp,m,swift}"
+  s.public_header_files = "INVAlglib.xcframework/**/*.{h,hpp}"
+  s.preserve_paths = "INVAlglib.xcframework"
 
   s.cocoapods_version = ">= 1.10.1"
 
