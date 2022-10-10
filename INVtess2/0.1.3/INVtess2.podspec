@@ -20,9 +20,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVtess2/0.1.3/INVtess2.xcframework.zip"}
 
-  s.source_files = "INVtess2.xcframework/**/*.{h,hpp,m,swift}"
-  s.public_header_files = "INVtess2.xcframework/**/*.{h,hpp}"
-  s.preserve_paths = "INVtess2.xcframework"
+  s.vendored_frameworks = 'INVtess2.xcframework'
 
   s.cocoapods_version = ">= 1.10.1"
 

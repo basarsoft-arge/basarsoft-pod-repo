@@ -20,9 +20,7 @@ Pod::Spec.new do |s|
 
     s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVCurl/0.1.4/curl.xcframework.zip"}
 
-    s.source_files = "curl.xcframework/**/*.{h,hpp,m,swift}"
-    s.public_header_files = "curl.xcframework/**/*.{h,hpp}"
-    s.preserve_paths = "curl.xcframework"
+    s.vendored_frameworks = 'curl.xcframework'
 
     s.dependency "INVOpenssl"
 

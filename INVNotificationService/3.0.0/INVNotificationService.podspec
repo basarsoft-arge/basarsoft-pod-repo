@@ -20,9 +20,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVNotificationService/3.0.0/INVNotificationService.xcframework.zip"}
 
-  s.source_files = "INVNotificationService.xcframework/**/*.{h,hpp,m,swift}"
-  s.public_header_files = "INVNotificationService.xcframework/**/*.{h,hpp}"
-  s.preserve_paths = "INVNotificationService.xcframework"
+  s.vendored_frameworks = 'INVNotificationService.xcframework'
 
   s.dependency "INVCppHelper", "~> 3.0"
   s.dependency "INVObjects", "~> 3.0"
