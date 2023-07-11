@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'INVLicenseManager.xcframework'
 
-  s.dependency "INVCppHelper", "~> 0.0"
-  s.dependency "INVObjects", "~> 0.0"
-  s.dependency "INVCpr", "~> 0.0"
-  s.dependency "INVMMKV", "~> 0.0"
+  s.dependency "INVCppHelper"
+  s.dependency "INVObjects"
+  s.dependency "INVCpr"
+  s.dependency "INVMMKV"
 
   s.cocoapods_version = ">= 1.10.1"
 
