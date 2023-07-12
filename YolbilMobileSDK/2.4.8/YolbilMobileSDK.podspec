@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
   s.weak_frameworks = nil
 
-  s.dependency "INVPackageManager", "~> 4.0"
+  s.dependency "INVPackageManager"
   s.dependency "INVSensorManager"
 
   s.vendored_frameworks = "YolbilMobileSDK.xcframework"
