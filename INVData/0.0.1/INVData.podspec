@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
 
   s.cocoapods_version = ">= 1.10.1"
 
-  s.dependency "INVflatbuffers", '~> 0.0'
+  s.dependency "INVflatbuffers"
 
 end
