@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.dependency "INVCppHelper"
   s.dependency "INVAlglib"
-  s.dependency "INVData", '~> 0.0'
+  s.dependency "INVData", '~> 0.0.1'
   s.dependency "INVSmoothing"
   s.dependency "INVeventpp"
 

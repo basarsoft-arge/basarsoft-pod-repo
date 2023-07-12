@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
 
   s.cocoapods_version = ">= 1.10.1"
 
-  s.dependency "INVSensorManager", '~> 0.0'
-  s.dependency "INVPackageManager", '~> 0.0'
-  s.dependency "INVData", '~> 0.0'
+  s.dependency "INVSensorManager", '~> 0.0.1'
+  s.dependency "INVPackageManager", '~> 0.0.1'
+  s.dependency "INVData", '~> 0.0.1'
   s.dependency "INVAlglib"
   s.dependency "INVCppHelper"
   s.dependency "INVeventpp"

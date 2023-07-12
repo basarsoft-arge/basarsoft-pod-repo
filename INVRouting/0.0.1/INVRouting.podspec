@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.dependency "INVCppHelper"
   s.dependency "INVSGRE"
-  s.dependency "INVPackageManager", '~> 0.0'
+  s.dependency "INVPackageManager", '~> 0.0.1'
   s.dependency "INVhttprequest"
   s.dependency "INVcglib"
   s.dependency "INVtess2"
