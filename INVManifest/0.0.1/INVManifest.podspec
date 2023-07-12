@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'INVManifest.xcframework'
 
-  s.dependency "INVCppHelper", '~> 0.0'
-  s.dependency "INVObjects", '~> 0.0'
+  s.dependency "INVCppHelper"
+  s.dependency "INVObjects"
 
   s.cocoapods_version = ">= 1.10.1"
 
