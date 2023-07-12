@@ -24,13 +24,13 @@ Pod::Spec.new do |s|
 
   s.cocoapods_version = ">= 1.10.1"
 
-  s.dependency "INVCppHelper", '~> 0.0'
-  s.dependency "INVSGRE", '~> 0.0'
+  s.dependency "INVCppHelper"
+  s.dependency "INVSGRE"
   s.dependency "INVPackageManager", '~> 0.0'
-  s.dependency "INVhttprequest", '~> 0.0'
-  s.dependency "INVcglib", '~> 0.0'
-  s.dependency "INVtess2", '~> 0.0'
-  s.dependency "INVpicojson", '~> 0.0'
-  s.dependency "INVObjects", '~> 0.0'
+  s.dependency "INVhttprequest"
+  s.dependency "INVcglib"
+  s.dependency "INVtess2"
+  s.dependency "INVpicojson"
+  s.dependency "INVObjects"
 
 end

@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.dependency "INVSensorManager", '~> 0.0'
   s.dependency "INVPackageManager", '~> 0.0'
   s.dependency "INVData", '~> 0.0'
-  s.dependency "INVAlglib", '~> 0.0'
-  s.dependency "INVCppHelper", '~> 0.0'
-  s.dependency "INVeventpp", '~> 0.0'
+  s.dependency "INVAlglib"
+  s.dependency "INVCppHelper"
+  s.dependency "INVeventpp"
 end
