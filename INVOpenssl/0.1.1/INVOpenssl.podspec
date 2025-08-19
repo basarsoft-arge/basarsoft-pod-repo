@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.4"
 
-  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVOpenssl/0.1.1/openssl.zip"}
+  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/INVOpenssl/0.1.1/openssl.zip"}
 
   s.source_files = "include/**/*.{h,hpp}"
   s.public_header_files = "include/**/*.{h,hpp}"

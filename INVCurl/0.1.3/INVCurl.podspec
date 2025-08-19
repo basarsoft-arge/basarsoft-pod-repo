@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, "11.4"
 
-    s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVCurl/0.1.3/curl.xcframework.zip"}
+    s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/INVCurl/0.1.3/curl.xcframework.zip"}
 
     s.source_files = "/**/*.{h,hpp}"
     s.public_header_files = "/**/*.{h,hpp}"

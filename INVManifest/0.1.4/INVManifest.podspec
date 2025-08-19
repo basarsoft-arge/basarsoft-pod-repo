@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "13"
 
-  s.source       = { :http => "https://repo.inavi.us/artifactory/generic-dev-local/pods/inavi/INVManifest/0.1.4/INVManifest.framework.zip"}
+  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-dev-local/pods/inavi/INVManifest/0.1.4/INVManifest.framework.zip"}
 
   s.source_files  = "INVManifest.framework/**/*.{hpp,h,m,mm,swift}"
 

@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, "11.4"
 
-    s.source       = { :http => "https://repo.inavi.us/artifactory/generic-release-local/pods/inavi/INVCpr/0.1.4/cpr.xcframework.zip"}
+    s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/INVCpr/0.1.4/cpr.xcframework.zip"}
 
     s.vendored_frameworks = 'cpr.xcframework'
 
