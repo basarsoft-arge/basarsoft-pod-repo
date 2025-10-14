@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.module_name  = "YolbilMobileSDK"
   s.name         = "YolbilMobileSDK"
-  s.version      = "furkanOyuncak"
+  s.version      = "0.0.2"
   s.summary      = "Yolbil Mobile SDK is an advanced MapView with 3D effects, offline maps, routing, geocoding and many more features"
 
   s.description  = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "13.0"
 
-  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/yolbil/YolbilMobileSDK/furkanOyuncak/YolbilMobileSDK.xcframework.zip"}
+  s.source       = { :http => "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/yolbil/YolbilMobileSDK/0.0.2/YolbilMobileSDK.xcframework.zip"}
 
   s.source_files  = "YolbilMobileSDK.xcframework/**/*.{h,m,mm}"
 
