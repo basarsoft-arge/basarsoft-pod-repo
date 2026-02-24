@@ -23,12 +23,6 @@ let package = Package(
         ),
         
         .binaryTarget(
-            name: "YolbilMobileSDK",
-            url: "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/yolbil/YolbilMobileSDK-SPM/2.7.0/YolbilMobileSDK.xcframework.zip",
-            checksum: "85a61622e9cd4a292dde54099612b1fb7db6a973cf5cc80f70ec0feeb32a1cf8"
-        ),
-        
-        .binaryTarget(
             name: "INVLicenseManager",
             url: "https://artifactory.basarsoft.com.tr/artifactory/generic-release-local/pods/inavi/INVLicenseManager/4.0.1/INVLicenseManager.xcframework.zip",
             checksum: "3a9f7b3d024f6c8b375d87c1e88a5db936f906454bd2d24865c0df7c1e01abb6"
